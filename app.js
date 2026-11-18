@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
     res.send("API funcionando correctamente");
 });
 
-app.listen(3000, () => {
-    console.log("Servidor funcionando en el puerto 3000");
+app.listen(5000, () => {
+    console.log("Servidor funcionando en el puerto 5000");
 });
